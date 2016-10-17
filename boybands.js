@@ -25,7 +25,7 @@ for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
 
   console.log("currentBand is " + currentBand);
 
-  		document.getElementById("boy-bands").innerHTML = currentBand;
+  		document.getElementById("boy-bands").innerHTML += currentBand + "<br>";
 
   		console.log("currentBand is " + currentBand);
 
@@ -34,6 +34,6 @@ for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
 
   console.log("veggieElement is " + currentVeggie);
 
-  document.getElementById("vegetables").innerHTML = currentVeggie;
+  document.getElementById("vegetables").innerHTML += currentVeggie + "<br>";
 
 }
